@@ -20,5 +20,5 @@ after_success:
   # Take the images and push them to docker hub
   - docker push kcarron/multi-client
   - docker push kcarron/multi-nginx
-  - docker push kcarron/kcarron/multi-server
-  - docker push kcarron/kcarron/multi-worker
+  - docker push kcarron/multi-server
+  - docker push kcarron/multi-worker
